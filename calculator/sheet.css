@@ -1,0 +1,124 @@
+body {
+    background: url("img/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+table {
+    margin: auto;
+    background: url("img/2.png");
+    background-size: cover;
+    width: 295px;
+    height: 420px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 100px;
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(33, 33, 33, 0.5);
+}
+
+#calculator {
+    position: absolute;
+    max-width: 60%;
+    left: 58%;
+    top: 10%;
+}
+
+input {
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #fff;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 5px;
+    font-size: 26px;
+    font-family: 'Homenaje', sans-serif;
+    transition: all 0.1s ease-in;
+    border-radius: 50px;
+    text-align: center;
+}
+
+input:hover {
+    color: #fff;
+    background-color: rgba(38, 50, 56, 0.3);
+    float: left;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+input:active {
+    top: 4px;
+    color: #fff;
+    background-color: rgba(244, 67, 54, 1);
+    float: left;
+    margin: 5px;
+}
+
+#answer {
+    width: 270px;
+    font-size: 40px;
+    text-align: center;
+    float: left;
+    border-radius: 2px;
+}
+
+#answer:hover {
+    width: 270px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+
+#answer:active {
+    top: 5px;
+    width: 270px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.operator {
+    background-color: transparent;
+    position: relative;
+}
+
+.operator:hover {
+    color: #fff;
+    background-color: rgba(38, 50, 56, 0.1);
+}
+
+.operator:active {
+    top: 4px;
+}
+
+#clear {
+    float: left;
+    position: relative;
+    display: block;
+    background-color: transparent;
+    margin-bottom: 15px;
+    color: rgba(244, 67, 54, 1);
+}
+
+#clear:hover {
+    float: left;
+    display: block;
+    color: #fff;
+    background-color: rgba(244, 67, 54, 0.7);
+}
+
+#clear:active {
+    float: left;
+    top: 4px;
+    display: block;
+    color: #fff;
+    background-color: rgba(244, 67, 54, 0.7);
+}
